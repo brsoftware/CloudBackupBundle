@@ -19,8 +19,8 @@ class BackupCommand extends ContainerAwareCommand
 {
     private $output;
 
-    private $databases = [];
-    private $storages  = [];
+    private $databases = array();
+    private $storages  = array();
 
     private $processors = array('tar', 'zip', '7z');
 
